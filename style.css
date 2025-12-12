@@ -586,6 +586,11 @@ img {
     min-height: 450px;
 }
 
+.location-text {
+    flex: 1;
+    padding: 50px;
+}
+
 .location-map {
     flex: 1.5;
     position: relative;
