@@ -1036,3 +1036,25 @@ img {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding-top: 20px;
 }
+
+/* Developer Credit */
+.developer-credit {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+
+.developer-credit:hover {
+    opacity: 1;
+}
+
+.developer-credit a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.developer-credit a:hover {
+    color: var(--primary);
+}
